@@ -26,6 +26,13 @@ android {
 dependencies {
  /*   //kapt　アノテーションを変換する
     compile('org.springframework.boot:spring-boot-starter-security')*/
+ /*   //for picasso(画像リンクから画像を表示)
+    implementation 'com.squareup.picasso:picasso:2.5.2'*/
+
+    //for glide(画像リンクから画像を表示)
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.0.2'
